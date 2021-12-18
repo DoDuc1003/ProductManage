@@ -144,17 +144,29 @@ public class App {
         System.out.println("Product not found");
     }
 
+    public static void menu() {
+        System.out.println("----------------Menu----------------\n" +
+                "1. Add products\n" +
+                "2. Display products\n" +
+                "3. Edit a product\n" +
+                "4. Delete a product\n" +
+                "5. Search for products by name\n" +
+                "6. Sort products by price\n" +
+                "7. Sort products by name\n" +
+                "0. Quit\n" +
+                "------------------------------------\n" +
+                "Please choose: ");
+    }
     public static void main(String[] args) {
 
-        System.out.println(Product.autoId);
+
         products = loadProducts();
-        System.out.println(products.size());
-        System.out.println(Product.autoId);
         printProduct(products);
         saveProducts();
         Scanner input = new Scanner(System.in);
         boolean running = true;
         while (running) {
+            menu();
             int option = Integer.parseInt(input.nextLine());
             switch (option) {
                 case 1:
