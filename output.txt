@@ -1,0 +1,17 @@
+autoId: 7
+products_no: 4
+1
+Swiss Army's Knife
+200000.0
+2
+Stylish water bottle (orange)
+80000.0
+3
+Cool notebook
+30000.0
+5
+Rechargeable Flash Light
+350000.0
+6
+harry
+75.0

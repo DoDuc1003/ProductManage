@@ -1,0 +1,14 @@
+autoId: 6
+products_no: 4
+1
+Swiss Army's Knife
+200000
+2
+Stylish water bottle (orange)
+80000
+3
+Cool notebook
+30000
+5
+Rechargeable Flash Light
+350000
